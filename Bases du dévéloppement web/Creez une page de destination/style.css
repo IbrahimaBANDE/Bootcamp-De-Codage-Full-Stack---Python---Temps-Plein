@@ -21,18 +21,20 @@ body{
     color: white;
     background-color: #0c83c9;
     height: 29px;
-    display: inline;
+    display: flex;
     justify-content: center ;
     align-items: center;
     margin-right: 13%;
     border: 0px;
     border-radius: 3px ;
+    padding: 3px;
+    text-decoration:none;
 }
 
 .SignUp{
     color: white;
     background-color: #455AFC;
-    height: 35px;
+    height: 200px;
     width: 100px;
     display: inline;
     justify-content: center ;
@@ -40,6 +42,8 @@ body{
     border: 0px;
     border-radius: 3px ;
     margin-left: 4px;
+    padding: 8px;
+    text-decoration:none;
 }
 
 .navi{
@@ -89,9 +93,9 @@ body{
     text-align: center;
 }
     
-.icone {
-    width: 80px;
-    height: 80px;
+.fa-solid {
+    color: #455AFc;
+    font-size: 100px;
 }
 
 .tete3 p{
